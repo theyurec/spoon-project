@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'LibreFranklin';
+    src: url('./static/fonts/LibreFranklin-Regular.eot');
+    src: url('/static/fonts/LibreFranklin-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/static/fonts/LibreFranklin-Regular.svg#LibreFranklin-Regular') format('svg'),
+    url('/static/fonts/LibreFranklin-Regular.ttf') format('truetype'),
+    url('/static/fonts/LibreFranklin-Regular.woff') format('woff'),
+    url('/static/fonts/LibreFranklin-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: LibreFranklin;
+    font-size: 14px;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.intro {
+    background-image: url("/static/images/intro.png");
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    color: white;
+}
+
+.header-navigation,
+.header-menu,
+.header-buttons {
+    display: flex;
+}
+
+.header-link {
+    padding: 0 20px;
+    font-weight: 400;
+}
+
+.separator {
+    padding: 0 17.5px 0 15px;
+}
+
+.header-button {
+    padding: 0 17.5px;
+}
+
+.header-button:last-child {
+    padding-right: 0;
+}
+
+.intro-block {
+    padding: 14% 0 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.intro-label {
+    font-size: 71px;
+    line-height: 78px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.intro-about {
+    line-height: 24px;
+    padding-bottom: 60px;
+}
+
+.common {
+    border: none;
+    background: rgba(90, 185, 99, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
